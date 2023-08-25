@@ -1,0 +1,124 @@
+.title {
+    margin: 32px 10% 32px 10%;
+}
+
+.title__div {
+    display: flex;
+    align-items: center;
+}
+
+.title__profile {
+    width: 368px;
+    border-radius: 50%;
+    order: 99;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--color-de-texto);
+    padding-right: 17px;
+}
+.title__bio {
+    font-weight: 700;
+}
+.title_1 {
+    font-size: 16px;
+}
+.title__name {
+    font-size: 64px;
+}
+.title_2 {
+    font-size: 32px;
+}
+
+.title__subsection {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.title__network {
+    display: flex;
+    gap: 6%;
+    padding: 0;
+    margin: 0;
+}
+.title__network__item {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px var(--color-linea-primaria) solid;
+}
+.title__network__item:hover {
+    border-color: var(--color-linea);
+    transition: border-color 0.5s;
+}
+
+/** Tablet*/
+@media (max-width: 768px) {
+    .title {
+        margin: 32px;
+    }
+    
+    .title__profile {
+        width: 146px;
+    }
+    
+    .title__container {
+        width: 70%;
+        gap: 8px;
+        padding-right: 6%;
+    }
+    .title_1 {
+        font-size: 13px;
+    }
+    .title__name {
+        font-size: 52px;
+    }
+    .title_2 {
+        font-size: 26px;
+    }
+    .title__subsection {
+        font-size: 16px;
+    }
+}
+
+/** Mobile*/
+@media (max-width: 425px) {
+    .title {
+        margin: 16px;
+    }
+    .title__div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .title__profile {
+        width: 98px;
+        order: 0;
+    }
+    .title__container {
+        width: 100%;
+        gap: 16px;
+        padding: 0;
+    }
+    .title_1 {
+        font-size: 12px;
+    }
+    .title__name {
+        font-size: 48px;
+    }
+    .title_2 {
+        font-size: 24px;
+    }
+    .title__subsection {
+        font-size: 14px;
+    }
+    .title__network {
+        gap: 8px;
+    }
+    .title__network__item {
+        font-size: 13px;
+    }
+}

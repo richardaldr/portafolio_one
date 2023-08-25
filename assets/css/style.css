@@ -1,0 +1,22 @@
+:root{
+   --color-de-fondo: #FFFFFF;
+   --color-de-link: #000000;
+   --color-de-texto: #000000;
+   --color-fondo-2: #EAF2FD;
+   --color-de-cajas: #f7f9f9;
+   --color-de-cajas-2: #FFFFFF;
+   --color-boton: #2A7AE4;
+   --color-boton2: #2467be;
+   --color-sombras: #e7e7e8;
+   --color-linea-primaria: #FFFFFF;
+   --color-linea: #000000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}

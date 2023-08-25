@@ -1,0 +1,11 @@
+.dark-mode {
+    --color-de-fondo: #000000;
+    --color-fondo-2: #16181c;
+    --color-de-texto: #FFFFFF;
+    --color-sombras: #181818;
+    --color-linea-primaria: #000000;
+    --color-linea: #FFFFFF;
+    --color-de-cajas: #1d1f23;
+    --color-de-cajas-2: #1d1f23;
+    transition: all 0.5s;
+}
